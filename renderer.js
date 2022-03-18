@@ -20,7 +20,7 @@ async function ping() {
 
 window.demo = async () => {
   for (let i = 0; i < 10000; i++) {
-    console.log("listenerCount", ipcRenderer.listenerCount("ping"));
+    console.log("listenerCount", ipcRenderer.listenerCount("pong"));
     await ping();
   }
 };
