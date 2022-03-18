@@ -1,5 +1,7 @@
 # Electron Bug with ipcRenderer.removeListener through contextBridge
 
+[Issue Ticket](https://github.com/electron/electron/issues/33328)
+
 I'm having a memory leak issue because I'm unable to remove event listeners from listening to an ipc channel.
 
 Here's my preload script.
